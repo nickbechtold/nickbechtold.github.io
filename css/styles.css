@@ -733,17 +733,24 @@ background:linear-gradient(to bottom,#36caf0 5%,#22abe9 100%)
 	    position: absolute;
 	    cursor: pointer;
 	}
-
+	.developer {
+    	font-size: 45px;
+    }
+    .name {
+    	font-size: 62px;
+    }
 	.gallery_photo {
 		width: 93%;
 		height: auto;
 	}
 
 	.gallery_title {
-    	font-size: 20px;
+    	font-size: 18px;
     	margin-left: 0%;
 	}
-
+	.live_demo {
+		font-size: 11px;
+	}
 	.gallery_caption {
 		font-size: 12px;
     	width: 97%;
