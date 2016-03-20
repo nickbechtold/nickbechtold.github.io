@@ -656,6 +656,10 @@ background:linear-gradient(to bottom,#36caf0 5%,#22abe9 100%)
 	display:none;
 }
 @media only screen and (max-width: 480px) {
+
+	#branding {
+		width: 138px;
+	}
 	#galleryContainer {
 	    float: left;
 	    width: 100%;
@@ -672,9 +676,6 @@ background:linear-gradient(to bottom,#36caf0 5%,#22abe9 100%)
 
 	#galleryTopHolder {
 		padding-top: 15%;
-	}
-	#galleryBottomHolder {
-		overflow-y:scroll;
 	}
 	#galleryLeft {
 		display: none;
