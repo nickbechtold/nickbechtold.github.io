@@ -655,7 +655,7 @@ background:linear-gradient(to bottom,#36caf0 5%,#22abe9 100%)
 #mobileNav {
 	display:none;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 480px) {
 	#galleryContainer {
 	    float: left;
 	    width: 100%;
