@@ -673,6 +673,9 @@ background:linear-gradient(to bottom,#36caf0 5%,#22abe9 100%)
 	#galleryTopHolder {
 		padding-top: 15%;
 	}
+	#galleryBottomHolder {
+		overflow-y:scroll;
+	}
 	#galleryLeft {
 		display: none;
 	}
