@@ -1,26 +1,24 @@
-<!doctype html>
-<html lang="en" ng-app>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+<!DOCTYPE html>
+<html ng-app="Portfolio">
+    <head>
+        <title>AngularJS  Tutorial Series</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <!-- JS Scripts -->
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.min.js"></script>
+        <script src="js/portfolio.js"></script>
+        <script src="js/project-list/project-list.module.js"></script>
+        <script src="js/project-list/project-list.component.js"></script>
 
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script src="js/portfolio.js"></script>
+        <!-- stylesheets -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
 
-		<!-- Include the basic styles -->
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link href="css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <project-list></project-list>
 
-		<title>Nicholas Bechtold Portfolio</title>
-	</head>
-	<body ng-controller="ProjectListController">
-	<ul>
-	    <li ng-repeat="project in projects">
-	      <span>{{project.name}}</span>
-	      <p>{{project.snippet}}</p>
-	    </li>
-  	</ul>
-		
-	</body>
+        
+    </body>
 </html>
